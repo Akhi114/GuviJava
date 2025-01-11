@@ -16,7 +16,7 @@ public class Book {
     }
 
     //Getter & Setter methods for book attributes
-    public int getBookID(int bookID) {
+    public int getBookID() {
         return bookID;
     }
 
