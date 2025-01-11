@@ -1,11 +1,13 @@
 package BookManagementSystem;
 
 public class Book {
+    //Attributes
     int bookID;
     String title;
     String author;
     boolean isAvailable;
 
+    //Constructor to initiate book items
     public Book(int bookID, String title, String author, boolean isAvailable){
          this.bookID = bookID;
          this.title = title;
@@ -13,8 +15,21 @@ public class Book {
          this.isAvailable = isAvailable;
     }
 
-    public int getBook(int bookID) {
+    //Getter & Setter methods for book attributes
+    public int getBookID() {
         return bookID;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
     }
 
     public void setBookID(int bookID) {
