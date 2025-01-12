@@ -3,12 +3,12 @@ package exceptionAndCollection;
 import java.util.Scanner;
 import java.util.HashMap;
 
-public class StudentGradeByName {
+public class StudentGradeByName_04 {
     // creating a private hashMap
     private HashMap<String, Integer> studentGrades;
 
     // Constructor for studentGrades
-    public StudentGradeByName() {
+    public StudentGradeByName_04() {
         studentGrades = new HashMap<>();
     }
 
@@ -42,7 +42,7 @@ public class StudentGradeByName {
     }
 
     public static void main(String[] args) {
-        StudentGradeByName grades = new StudentGradeByName();
+        StudentGradeByName_04 grades = new StudentGradeByName_04();
         Scanner scan = new Scanner(System.in);
 
         while (true) {

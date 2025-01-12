@@ -2,11 +2,11 @@ package exceptionAndCollection;
 
 import java.util.Scanner;
 
-public class Voter {
+public class Voter_02 {
     int voterID, age;
     String name;
 
-    public Voter(int voterID, String name, int age) {
+    public Voter_02(int voterID, String name, int age) {
         this.voterID = voterID;
         this.name = name;
         this.age = age;
@@ -33,7 +33,7 @@ public class Voter {
             age = scan.nextInt();
             validateAge(age);
 
-            Voter v = new Voter(voterId, name, age);
+            Voter_02 v = new Voter_02(voterId, name, age);
             v.displayVoterDetail();
 
         }catch (NotEligible e) {

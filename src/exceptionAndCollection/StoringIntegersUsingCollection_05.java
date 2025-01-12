@@ -3,10 +3,10 @@ package exceptionAndCollection;
 import java.util.Stack;
 import java.util.Scanner;
 
-public class StoringIntegersUsingCollection {
+public class StoringIntegersUsingCollection_05 {
     private Stack<Integer> stack;
 
-    public StoringIntegersUsingCollection() {
+    public StoringIntegersUsingCollection_05() {
         stack = new Stack<>();
     }
 
@@ -38,7 +38,7 @@ public class StoringIntegersUsingCollection {
     }
 
     public static void main(String[] args) {
-        StoringIntegersUsingCollection operations = new StoringIntegersUsingCollection();
+        StoringIntegersUsingCollection_05 operations = new StoringIntegersUsingCollection_05();
         Scanner scan = new Scanner(System.in);
 
         System.out.println("\nMenu:");

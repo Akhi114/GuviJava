@@ -2,7 +2,7 @@ package exceptionAndCollection;
 
 import java.util.Scanner;
 
-public class DisplayWeekdays {
+public class DisplayWeekdays_03 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int dayPosition = 0;
