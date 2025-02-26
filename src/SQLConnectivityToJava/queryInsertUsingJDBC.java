@@ -46,7 +46,7 @@ public class queryInsertUsingJDBC {
             System.out.println("MySQL JDBC Driver not found.");
             e.printStackTrace();
         } catch (SQLException e) {
-            System.out.println("Database error occured.");
+            System.out.println("Database error occurred.");
             e.printStackTrace();
         }
     }
